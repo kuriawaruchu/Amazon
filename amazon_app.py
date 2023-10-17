@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd 
+import statsmodels
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
