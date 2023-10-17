@@ -1,6 +1,4 @@
 import streamlit as st
-import statsmodels.api as sm
-
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.model_selection import train_test_split
